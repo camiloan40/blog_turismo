@@ -1,0 +1,30 @@
+.cabecera h4{
+  color: #0101DF;
+}
+
+.logo{
+  width: 250px;
+}
+
+.navegacion{
+  margin-top: 5px;
+}
+
+.contenido{
+  padding-top: 20px;
+}
+
+.redes{
+}
+
+.redes img{
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}
+
+.comentarios{
+  color: #fafafa;
+}

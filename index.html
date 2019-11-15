@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximu-scale=1.0"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="stylesheet" href="css/materialize.css" type="text/css" media="screen, projection"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Blog Turismo</title>
+  </head>
+  <body>
+    <!--fila contenedora-->
+    <div class="row contenedor">
+      <!--Cabecera-->
+      <div class="row cabecera blue lighten-5">
+        <div class="col s12 m6 l4">
+          <img class="logo" src="img/logo.png" alt="logo">
+          <h4 class="right-align">Creando mi propia ruta</h4>
+        </div>
+        <!--Menu cabecera-->
+        <div class="col s12 m6 l8 navegacion right-align">
+          <a href="##" class="waves-effect waves-light blue darken-2 btn"><i class="material-icons">home</i>Inicio</a>
+          <a class="waves-effect waves-light blue darken-2 btn"><i class="material-icons">location_on</i>Estuve en</a>
+          <a class="waves-effect waves-light blue darken-2 btn"><i class="material-icons">star</i>Mejores Viajes</a>
+          <a class="waves-effect waves-light blue darken-2 btn"><i class="material-icons">bookmark</i>Promociones</a>
+        </div>
+      </div>
+      <div class="row contenido grey darken-2">
+        <!--Redes sociales-->
+        <div class="col s12 m4 l1 redes hide-on-small-only">
+          <a href="#"><img class="responsive-img" src="img/facebook.png"></a>
+          <a href="#"><img class="responsive-img" src="img/instagram.png"></a>
+          <a href="#"><img class="responsive-img" src="img/snapchat.png"></a>
+          <a href="#"><img class="responsive-img" src="img/whatsapp.png"></a>
+          <a href="#"><img class="responsive-img" src="img/youtube.png"></a>
+        </div>
+        <!--Imagenes-->
+        <div class="col s12 m8 l11">
+          <div class="row">
+            <div class="col s12 m4 l4">
+              <img class="responsive-img hoverable" src="img/piramide.jpg" alt="mexico">
+              <img class="responsive-img" src="img/cancun.jpg" alt="cancun">
+            </div>
+            <div class="col s12 m4 l4">
+              <img class="responsive-img" src="img/guatemala.jpg" alt="guatemala">
+            </div>
+            <div class="col s12 m4 l4">
+              <img class="responsive-img" src="img/jamaica.jpg" alt="jamaica">
+              <img class="responsive-img" src="img/jamaica2.jpg" alt="jamaica">
+              <img class="responsive-img" src="img/buseo.jpg" alt="buseo">
+            </div>
+          </div>
+        </div>
+        <!--Entradas de texto-->
+        <div class="row">
+          <div class="col s12 m9 l8 entradas-blog">
+            <div class="card grey lighten-2">
+              <div class="card-content">
+                <span class="card-title">Piramides</span>
+                <p><img class="responsive-img" src="img/piramides.jpg" alt="piramides">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <!--Comentarios-->
+            <div class="card blue lighten-2 comentarios">
+              <div class="card-content">
+                <div class="row">
+                  <form class="col s12">
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">account_circle</i>
+                      <input id="icon_prefix" type="text" class="validate">
+                      <label for="icon_prefix">Nombre</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">email_circle</i>
+                      <input id="icon_prefix" type="text" class="validate">
+                      <label for="icon_prefix">Correo</label>
+                    </div>
+                    <div class="input-field col s12">
+                      <i class="material-icons prefix">comment_circle</i>
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Comentario</label>
+                    </div>
+                    <button class="btn waves-effect grey lighten-5 right" type="submit" name="action">Enviar
+                      <i class="material-icons right">send</i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m3 l4">
+            <div class="card grey lighten-2 center-align">
+              <div class="row valign-wrapper ">
+                <div class="col s12 m12 l12">
+                  <img src="img/autor.jpg" alt="autor" class="circle responsive-img">
+                </div>
+              </div>
+
+              <div class="card-content">
+                <span class="card-title">Sobre el Autor</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <!--javascript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>
